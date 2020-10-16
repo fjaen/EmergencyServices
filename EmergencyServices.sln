@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6FC65C1A-906D-4D29-9B46-A1A6EAF450F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{682E2B31-DB05-4352-8C9F-3276CB03DE27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{DB11B560-7BC6-4B43-BE45-154C9D5C9D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergencyServicesLibrary", "EmergencyServicesLibrary\EmergencyServicesLibrary.csproj", "{9650ED52-8129-4D82-B5EB-BA2F11EC2429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergencyServicesConsoleApp", "EmergencyServicesConsoleApp\EmergencyServicesConsoleApp.csproj", "{E309FD4A-7D97-47B9-B7EC-69D0F76D1551}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9650ED52-8129-4D82-B5EB-BA2F11EC2429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9650ED52-8129-4D82-B5EB-BA2F11EC2429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9650ED52-8129-4D82-B5EB-BA2F11EC2429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9650ED52-8129-4D82-B5EB-BA2F11EC2429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E309FD4A-7D97-47B9-B7EC-69D0F76D1551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E309FD4A-7D97-47B9-B7EC-69D0F76D1551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E309FD4A-7D97-47B9-B7EC-69D0F76D1551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E309FD4A-7D97-47B9-B7EC-69D0F76D1551}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9650ED52-8129-4D82-B5EB-BA2F11EC2429} = {DB11B560-7BC6-4B43-BE45-154C9D5C9D18}
+		{E309FD4A-7D97-47B9-B7EC-69D0F76D1551} = {682E2B31-DB05-4352-8C9F-3276CB03DE27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1068A11C-0819-466D-85A2-F2A329BB1AB8}
+	EndGlobalSection
+EndGlobal
